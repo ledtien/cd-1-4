@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;;
+}
+a {
+    margin: 0.7rem;
+    font-weight: bold;
+}
+nav {
+    color: white;
+    height: 50px;
+    padding: 10px 15%;
+    background-color: black;
+    position: fixed;
+    width: 70%;
+    
+}
+
+section {
+    display: flex;
+    height: 70vh;
+    padding: 10px 15%;
+}
+.flex { 
+    display: flex;
+}
+
+.col {
+    align-items: center;
+    justify-content: space-between;
+    
+    flex: 1;    
+    
+  
+}
+
+section:nth-of-type(1) {
+    background-color: #ff4632;
+    
+}
+
+section:nth-of-type(2) {
+    background-color: #cb1582;
+    color: white;
+   
+}
+
+section:nth-of-type(3) {
+    background-color: #2d46b9;
+    color: green;
+    
+}
+
+.background-images {
+    background-image: url(https://treo-html.netlify.app/week1/spotify/images/LiE_circles.svg);
+    width: auto;
+}
+    
+
+.white {
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 35vh;
+    padding: 10px 15%;
+    
+}
+
+.footer-top {
+    justify-content: space-around;
+}
+
+.col1 {
+    flex: 1;
+  
+}
+
+.right-footer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.right-footer1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer-middle {
+    display: flex;
+   
+    height: 80px;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.left-footer {
+    font-size: 0.8rem;
+
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button {
+margin-top: 35px;
+border-radius: 500px;
+font-size: 14px;
+font-weight: 700;
+padding: 17px 48px;
+background-color: #000;
+color: #ffffff;
+letter-spacing: 2px;
+border: 0;
+}
